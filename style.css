@@ -1,0 +1,129 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-login form {
+    display: flex;
+}
+
+.header-login form input[type="text"],
+.header-login form input[type="password"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.header-login form button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.header-login form button:hover {
+    background-color: #45a049;
+}
+
+.header-signup {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.header-signup:hover {
+    text-decoration: underline;
+}
+------------------------------
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.wrapper-main {
+    width: 80%;
+    margin: auto;
+}
+
+.section-default {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.signuperror {
+    color: red;
+}
+
+.signupsuccess {
+    color: green;
+}
